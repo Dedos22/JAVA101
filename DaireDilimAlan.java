@@ -5,6 +5,7 @@
 //Formül : (𝜋 * (r*r) * 𝛼) / 360
 import java.util.Scanner;
 public class Main(){
+    public static void main(String arg[]){
     double input=new Scanner(System.in);
     
     System.out.print( "yarıcap giriniz:" );
@@ -15,4 +16,5 @@ public class Main(){
     int acı=input.nextDouble();
     int sonuc=(pi*(r^2)*acı);
   System.out.prinln("Alan:"+sonuc);
-}     
+} 
+    }
