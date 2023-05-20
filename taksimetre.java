@@ -4,7 +4,7 @@
 //Minimum ödenecek tutar 20 TL'dir. 20 TL altında ki ücretlerde yine 20 TL alınacaktır. 20/2.20=? km
 //Taksimetre açılış ücreti 10 TL'dir.
 import java.util.Scanner;
-public class Main {
+public class taksimetre {
     public static void main(String[] args) {
       System.out.print("KM:");
       Scanner km= new Scanner(System.in);
