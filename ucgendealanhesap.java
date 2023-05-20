@@ -2,7 +2,7 @@
 
 
 import java.util.Scanner;
-public class Main{
+public class ucgendealanhesap{
    public static void main(Sring[] args){
    int input=new Scanner(System.in);
    System.out.print("Birinci kenar uzunluk giriniz:");
