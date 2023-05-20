@@ -5,7 +5,7 @@ public class Main{
        Scanner inp=new Scanner(System.in);
        System.out.print("fiyat giriniz");
        double fiyat=inp.nextDouble();
-       double kdvoran=18;
+       int  kdvoran=18;
        double kdvFiyat, kdvtutar;
        if(0<fiyat<=1000){
           kdvtutar=fiyat*(kdvoran/100);
