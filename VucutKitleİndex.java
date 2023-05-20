@@ -6,7 +6,7 @@
 //Kilo (kg) / Boy(m) * Boy(m)
 
 import java.util.Scanner;    //Kullanıcıdan değer almayı sağlar
-public class Main{
+public class VucutKitleİndex{
   public static void main(String[] args){
     //Değişkenler
    
