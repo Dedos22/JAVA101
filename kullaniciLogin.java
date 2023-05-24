@@ -17,13 +17,15 @@ public class kullaniciLogin{
       if(select==1){
          System.out.println("Yeni sifre giriniz:");
          String yenisifre=input.nextLine();
-         password=yenisifre;
-         System.out.println("şifreniz sıfırlandı");
+         if (yenisifre!=password){
+               password=yenisifre;
+              System.out.println("şifreniz sıfırlandı");
+           }else {
+                System.out.println("Sifre olusturulamadi, lutfen baska sifre giriniz");
+             }
       }else{
            System.out.println("şifreniz sıfırlanmadı.İyi gunler");
-      }
-      
-    }
-    
+      }      
+    }    
   }
 }
