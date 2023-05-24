@@ -29,7 +29,7 @@ public class notHesap{
         }
     System.out.print("Muzik Notunuz:");
     muzik=input.nextInt();
-    if(muzik)
+    
       if (muzik<0 || muzik>100){
             System.out.println("Gecersiz kimya notu Ortalamaya katilmayacak");
             muzik=0;
