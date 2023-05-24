@@ -25,7 +25,7 @@ public class Main{
     System.out.println("Ortalamanız="+ortalama);
     
     //Sınıfta kalma geçme durumu
-    boolean durum=(ortalama >= 60 ? "Geçtiniz":"kaldınız");
+    String durum=(ortalama >= 60 ? "Geçtiniz":"kaldınız");
     
     
   }
