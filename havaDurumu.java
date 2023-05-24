@@ -6,7 +6,7 @@
 //Sıcaklık 25'ten büyük ise "Yüzme" etkinliğini öner.
 
 import java.util.Scanner;
-publiz class havaDurumu{
+public class havaDurumu{
   public static void main(String[] args){
     int derece;
     Scanner inp=new Scanner(System.in);
