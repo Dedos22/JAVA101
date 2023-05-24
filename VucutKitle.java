@@ -6,7 +6,7 @@
 //Kilo (kg) / Boy(m) * Boy(m)
 
 import java.util.Scanner;    //Kullanıcıdan değer almayı sağlar
-public class VucutKitleİndex{
+public class VucutKitle{
   public static void main(String[] args){
     //Değişkenler
    
@@ -18,7 +18,7 @@ public class VucutKitleİndex{
     boy=inp.nextDouble();
     System.out.print("Lütfen kilonuzu giriniz(kg):");
     kilo=inp.nextDouble();
-    indeks=kilo/boy^2;
+    indeks=kilo/(boy*boy);
     System.out.println("Vücut Kitle İndeksiniz :"+ indeks);
   
 
