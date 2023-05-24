@@ -14,9 +14,9 @@ publiz class havaDurumu{
     derece=inp.nextInt();
     if(derece<5){
       System.out.print( "Kayak yapabilirsiniz");
-    }else if(5<=derece<15){
+    }else if(5<=derece && derece<15){
       System.out.print( "Sinemaya gitmek güzel olur.");
-    }else if(15<=derece<25){
+    }else if(15<=derece && derece<25){
       System.out.print( "Piknik için mükkemmel bir hava");
     }else{
       System.out.print( "Yüzmeye gitmelisin.");
