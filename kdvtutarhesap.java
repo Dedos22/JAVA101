@@ -7,7 +7,7 @@ public class kdvtutarhesap{
        double fiyat=inp.nextDouble();
        int  kdvoran=18;
        double kdvFiyat, kdvtutar;
-       if(0<fiyat<=1000){
+       if(0<fiyat && fiyat<=1000){
           kdvtutar=fiyat*(kdvoran/100);
           kdvFiyat=kdvtutar+fiyat;
        }else if(fiyat>1000){
