@@ -12,8 +12,6 @@ public class tekSayiToplam{
                if(a%2!=0 && a>=0){
                    tekToplam=tekToplam+a;
                        System.out.println(a+"tek sayidir.Toplam degere eklendi.");
-               }else{
-                   a++;
                }
                
         }
